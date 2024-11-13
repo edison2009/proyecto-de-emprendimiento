@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paletas Acarameladas</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .navbar {
+            background-color: #ff3b3b; /* Fondo rojo */
+            overflow: hidden;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .navbar a {
+            color: #ffffff; /* Letras en blanco */
+            text-decoration: none;
+            padding: 1rem;
+            font-weight: bold; /* Letras en negrita */
+            font-size: 1rem;
+            display: inline-block;
+        }
+
+        .navbar a:hover {
+            background-color: #cc0000; /* Color rojo oscuro al pasar el cursor */
+        }
+
+        /* Estilos para la sección de inicio */
+        #inicio {
+            text-align: center;
+            padding: 2rem;
+            background-color: #ffe5e5; /* Fondo suave relacionado con el tema */
+            color: #ff3b3b; /* Texto rojo */
+        }
+
+        #inicio h1 {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        #inicio p {
+            font-size: 1.2rem;
+        }
+    
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            width: 50%;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #d2691e;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="email"], input[type="tel"], input[type="address"], select {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            height: 100px;
+        }
+        button {
+            background-color: #d2691e;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #c05a2b;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="vinculo1.html">Inicio</a>
+        <a href="vinculo2.html">Acerca de</a>
+        <a href="vinculo3.html">Servicios</a>
+        <a href="vinculo4.html">Portafolio</a>
+        <a href="vinculo5.html">Contacto</a>
+        </nav>
+
+        <div class="container">
+            <h1>Registro de Cliente</h1>
+            <form action="#" method="POST">
+                <!-- Nombre -->
+                <div class="form-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre completo">
+                </div>
+                
+                <!-- Correo Electrónico -->
+                <div class="form-group">
+                    <label for="email">Correo Electrónico</label>
+                    <input type="email" id="email" name="email" required placeholder="Tu correo electrónico">
+                </div>
+                
+                <!-- Teléfono -->
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" required placeholder="Tu número de teléfono">
+                </div>
+                
+                <!-- Dirección -->
+                <div class="form-group">
+                    <label for="direccion">Dirección</label>
+                    <textarea id="direccion" name="direccion" required placeholder="Tu dirección completa"></textarea>
+                </div>
+                
+                <!-- Tipo de Paleta -->
+                <div class="form-group">
+                    <label for="tipo_paleta">Tipo de Paleta</label>
+                    <select id="tipo_paleta" name="tipo_paleta" required>
+                        <option value="">Selecciona un tipo de paleta</option>
+                        <option value="caramelo_floral">Caramelo Floral</option>
+                        <option value="chocolate_fresa">Chocolate con Fresas</option>
+                        <option value="caramelo_confites">Caramelo con Confites</option>
+                        <option value="chocolate_oscuro">Chocolate Oscuro con Menta</option>
+                        <option value="frutas_tropicales">Frutas Tropicales</option>
+                        <option value="chocolate_nueces">Chocolate con Nueces</option>
+                    </select>
+                </div>
+    
+                <!-- Botón de Envío -->
+                <button type="submit">Registrar</button>
+            </form>
+        </div>
+        <h1><center><font color="white">Edison Gabriel Varas Apaza-4toG</font></center></h1>
+        <center><img src="img/pokemon.jpg"style="width: 205px;"></center> 
+    
+    </body>
+    </html>
